@@ -1,0 +1,105 @@
+:root {
+	--clr-gray-light:  #cfd8dc;
+	--clr-primary-hover: #0d47a1;
+	--clr-gray-med: #78909c;
+	--clr-primary: #2962ff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 2em;
+	font-family: "Open Sans", sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1em;
+	border-bottom: 2px solid var(--clr-gray-light);
+}
+
+main {
+	margin-top: 1em;
+}
+
+
+/*
+	old button
+
+.btn-add {
+	width: 5em;
+	height: 2em;
+	font-size: 1em;
+	border: none;
+	background-color: #2962ff;
+	color:  white;
+	cursor: pointer;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	border-radius: 0.2em;
+	outline: none;
+	transition: all 100ms ease-in;
+	margin-bottom: 1em;
+	margin-right: 1em;
+}*/
+
+.btn-select-add {
+	background-color: DodgerBlue;
+  	border: none;
+  	color: white;
+  	width: 5em;
+	height: 2em;
+  	font-size: 1em;
+  	cursor: pointer;
+  	outline: none;
+  	border: none;
+  	transition: all 100ms ease-in;
+  	margin: 0 0.5em 1em 0.5em;
+  	box-shadow: 0px 0px 10px var(--clr-gray-med);
+}
+
+.btn-select-add:active,
+.btn-select-add:hover {
+	background-color: var(--clr-primary-hover);
+}
+
+.div-shadow {
+	width: auto;
+	height: 2em;
+	box-shadow: 0px 0px 10px var(--clr-gray-med);
+	margin: 0 0.5em 1em 0.5em;
+	overflow: visible;
+}
+
+#div-container-select {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.btn-where-add {
+	background-color: DodgerBlue;
+  	border: none;
+  	color: white;
+  	width: 5em;
+	height: 2em;
+  	font-size: 1em;
+  	cursor: pointer;
+  	outline: none;
+  	border: none;
+  	transition: all 100ms ease-in;
+  	margin: 0 0.5em 1em 0.5em;
+  	box-shadow: 0px 0px 10px var(--clr-gray-med);
+}
+
+#div-container-where {
+	display: flex;
+	flex-wrap: wrap;
+}
+
